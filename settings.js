@@ -26,6 +26,7 @@ global.botname = process.env.BOT_NAME || 'Queen-Adiza'
 
 global.ownernumber = process.env.OWNER_NUMBER || '' 
 
+
 //-----------------[ OWNER NAME ]------------------//
 
 global.ownername = process.env.OWNER_NAME || 'Matrix-X-King' 
@@ -42,6 +43,13 @@ global.author = process.env.STICKER_AUTHOR_NAME || "Adizatu"
 
 global.dbToken = process.env.GITHUB_TOKEN || "";
 
+//-----------------[ PREMIUM API SETTINGS ]-----------------//
+global.premiumApiUrl = process.env.PREMIUM_API_URL || 'http://adiza-apikey.godpapa.xyz:9000'; // 
+
+//-----------------[ PREMIUM BOTAPI KEY ]-----------------//
+
+global.botApiKey = process.env.BOT_API_KEY || '1952f36e4acec60c3f4ccf1618284ffd'; 
+
 
 //-----------------[ CONTEXT LINK ]--------------------//
 
@@ -49,7 +57,7 @@ global.plink = process.env.PLINK || "https://www.instagram.com/heyits_matrix?igs
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "® 𝘼𝙙𝙞𝙯𝙖𝙩𝙪🌹"
+global.wm = process.env.GL_WM || "®𝘼𝙙𝙞𝙯𝙖𝙩𝙪🌹"
 
 //---------------------[ REPLIES ]-----------------------//
 
